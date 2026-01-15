@@ -1,0 +1,21 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "complete backend in node.js express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Ali and Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3",
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7"
+  }
+}
